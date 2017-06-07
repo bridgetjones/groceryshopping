@@ -13,3 +13,8 @@
 //= require rails-ujs
 //= require turbolinks
 //= require_tree .
+
+$(".bookImage").click(function(){
+    console.log("The paragraph was clicked.");
+});
+// 1. Figure Out Why Div element doesn't console log.
